@@ -1,0 +1,16 @@
+#glitchCanvas{
+    position: absolute;
+    right:0px;
+    top:0px;
+    width: 100%;
+    pointer-events: none;
+}
+
+.glitch{
+    width:200%;
+    position: absolute;
+    height: 5px;
+    overflow:hidden;
+    pointer-events: none;
+    z-index:999999;
+}
